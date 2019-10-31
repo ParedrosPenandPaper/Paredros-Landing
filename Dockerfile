@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-COPY dist/ usr/src/app
+COPY dist/ /usr/share/nginx/html
 
 EXPOSE 80
 
