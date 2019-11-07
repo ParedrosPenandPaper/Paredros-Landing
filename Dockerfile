@@ -4,4 +4,4 @@ COPY dist/ /usr/share/nginx/html
 
 EXPOSE 80
 
-CMD nginx
+CMD nginx -g "daemon off;"
