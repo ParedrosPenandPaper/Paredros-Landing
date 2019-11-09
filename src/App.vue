@@ -7,23 +7,23 @@
     </div>
 
     <div id="reg-auth-container">
-      <div class="routing-panel reg-auth-container" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de/login')">
+      <div class="routing-panel reg-auth-container" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de:8083')">
         <p class="reg-auth-paragraph">register</p>
       </div>
 
-      <div class="routing-panel reg-auth-container" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de/register')">
+      <div class="routing-panel reg-auth-container" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de:8083')">
         <p class="reg-auth-paragraph">login</p>
       </div>
     </div>
 
     <div id="routing-panel-container">
-      <div id="creator-panel " class="routing-panel sized-routing-panel" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de/creator')">
+      <div id="creator-panel " class="routing-panel sized-routing-panel" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de:8084')">
         <p class="routing-panel-paragraph">creator</p>
       </div>
-      <div id="store-panel" class="routing-panel sized-routing-panel" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de/store')">
+      <div id="store-panel" class="routing-panel sized-routing-panel" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de:8085')">
         <p class="routing-panel-paragraph">store</p>
       </div>
-      <div id="player-panel" class="routing-panel sized-routing-panel" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de/player')">
+      <div id="player-panel" class="routing-panel sized-routing-panel" @click="redirectTo('http://it-projekt19-6.informatik.fh-nuernberg.de:8086')">
         <p class="routing-panel-paragraph">player</p>
       </div>
     </div>
